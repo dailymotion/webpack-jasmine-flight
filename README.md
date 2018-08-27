@@ -37,7 +37,7 @@ describeComponent(require('ui/compose'), specDefinitions);
 A function to execute after the component has loaded. Should contain spec definitions.
 
 
-### ddescribeComponent(componentReference, specDefinitions)
+### fdescribeComponent(componentReference, specDefinitions)
 
 As per describeComponent, but prevents execution of any other specs.
 
@@ -60,7 +60,7 @@ Result of requiring mixin. E.g. `require('ui/with_close_button')`
 A function to execute after the mixin has loaded. Should contain spec definitions.
 
 
-### ddescribeMixin(mixinReference, specDefinitions)
+### fdescribeMixin(mixinReference, specDefinitions)
 
 As per describeMixin, but prevents execution of any other specs.
 
@@ -79,7 +79,7 @@ Result of requiring a module. E.g. `require('utils/time')`
 
 A function to execute after the module has loaded. Should contain spec definitions.
 
-### ddescribeModule(moduleReference, specDefinitions)
+### fdescribeModule(moduleReference, specDefinitions)
 
 As per describeModule, but prevents execution of any other specs.
 
